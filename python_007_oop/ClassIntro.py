@@ -9,6 +9,8 @@ class Product:
 
 
 product: Product = Product() # invokes __init__()
+
+# fields are not private
 assert product.name == "Smartphone"
 assert product.description == "Awesome description"
 assert product.price == 700.50
